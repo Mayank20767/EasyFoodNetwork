@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dad7cd;
+    overflow: hidden;
+}
+
+.temp {
+    height: 120px;
+    width: 100%;
+}
+
+
+.flex-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+
+}
+
+.image {
+    width:100%;
+    max-width: 400px;
+    padding: 0 20px;
+    background-image: url(img/2nd.jpg);
+    background-size:cover;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* filter: blur(2px);  */
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
+}
+.container form{
+   margin-top: 20%;
+}
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333; /* Color for the logo text */
+    text-align: center;
+}
+
+.logo b {
+    color: #06C167; /* Accent color for the 'Donate' text */
+}
+
+#heading {
+    color: #333; /* Color for the heading text */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin top as needed */
+}
+
+.input,
+.password {
+    margin-top: 20px; /* Adjust the margin top as needed */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Adjust the width and subtract padding */
+    padding: 10px;
+    margin-top: 5px; /* Adjust the margin top as needed */
+    border: 1px solid #ccc; /* Border color for the input fields */
+    border-radius: 5px; /* Rounded corners for the input fields */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #FBB02D; /* Color for input border on focus */
+}
+
+.btn {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin top as needed */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #06C167; /* Button background color */
+    color: #fff; /* Text color for the button */
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button[type="submit"]:hover {
+    background-color: #049e4b; /* Background color on hover */
+}
+
+.pass {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.signin-up {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin top as needed */
+}
+
+.signin-up p {
+    font-size: 20px;
+    color: #333; /* Color for the text */
+}
+
+.signin-up a {
+    color: #06C167; /* Color for the link */
+    text-decoration: none;
+}
+
+.signin-up a:hover {
+    text-decoration: underline; /* Underline on hover for the link */
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        max-width: 100%;
+    }
+    
+    .image,
+    .container {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+}

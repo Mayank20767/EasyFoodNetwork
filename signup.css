@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dad7cd;
+    overflow: hidden;
+}
+
+
+
+
+.input {
+    margin-top: 20px;
+}
+
+.textlabel {
+    text-align: left;
+    font-size: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 16px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pass {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 60%;
+    right: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.radio {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button[type="submit"] {
+    padding: 10px 40px;
+    background-color: #06C167;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #05a956;
+}
+
+.signin-up {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsive adjustments */
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        padding: 10px;
+    }
+
+    .image {
+        max-width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .container {
+        max-width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .icon {
+        right: 10px;
+    }
+
+    button[type="submit"] {
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .image {
+        padding: 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+    }
+}

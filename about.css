@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;0,800;1,400;1,600&display=swap');
+:root {
+  --navcolor: #dad7cd;
+  --navfont: black;
+  --green: #588157;
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0.1)
+}
+
+* {
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family:sans-serif;
+  box-sizing: border-box;
+}
+
+
+.coverc {
+  width: 100%;
+  height: 400px;
+  background: url('img/about3.jpg')no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  padding-top: 8rem;
+
+}
+
+.title {
+  font-size: 38px;
+  text-align: center;
+  align-items: center;
+}
+
+.para p {
+  font-size: 23px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#map {
+  max-width: 100%;
+}
+
+#aboutus .aboutus {
+  position: relative;
+  top: 0;
+  min-height: 400px;
+  height: 520px;
+  background-color: rgb(141, 140, 140);
+}
+
+#aboutus p {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#aboutus ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 23px;
+  padding: 0;
+}
+
+#aboutus ul li {
+  list-style: none;
+  margin-left: 10px;
+  color: white;
+}
+
+#aboutus ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#aboutus a:hover {
+  text-decoration: underline;
+  background-color: #06C167;
+}
+
+.ngophotos {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+}
+
+.photos1,
+.photos2,
+.photos3 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.photos1 {
+  background-image: url(img/international-longevity-centre-india-768x512.jpg);
+  background-size: cover;
+}
+
+.photos2 {
+  background-image: url(img/casp-logo.jpg);
+}
+
+.photos3 {
+  background-image: url(img/sevavardhini.jpg);
+}
+
+.carousel-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #06C167;
+}
+
+.carousel-image-container {
+  width: 40%;
+  border-right: 2px solid #06C167;
+  padding: 10px;
+}
+
+.carousel-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-pera-container {
+  width: 60%;
+  padding: 10px;
+}
+
+.carousel-pera-container p {
+  font-size: 19px;
+}
+
+@media (max-width: 767px) {
+  .para p {
+    font-size: 16px;
+    /* margin-left: 10px; */
+  }
+
+  #pptslide {
+    height: 200px;
+    width: 300px;
+
+  }
+
+
+
+  #overview {
+    height: 200px;
+    width: 300px;
+  }
+
+  .title {
+    font-size: 28px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+  }
+ 
+
+}
+
+@media (max-width:627px) {
+  .photos1,
+  .photos2,
+  .photos3 {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width:460px){
+  .photos1,
+  .photos2,
+  .photos3 {
+    width: 120px;
+    height: 120px;
+  }
+}
+

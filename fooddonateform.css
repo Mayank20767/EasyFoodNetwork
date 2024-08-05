@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the container */
+  .container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+  }
+  
+  /* Styling for the form */
+  /* .regformf form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  } */
+  
+  /* Styling for the logo */
+  .regformf .logo {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .regformf .logo b {
+    color: #06C167;
+  }
+  
+  /* Styling for input elements */
+  .regformf .input {
+    margin-bottom: 20px;
+  }
+  
+  .regformf label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Radio Button */
+  .radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .radio label {
+    display:inline;
+    margin-right: 10px;
+  }
+  
+  .radio input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  /* Custom styling for the checked state of the radio button */
+  .radio input[type="radio"]:checked {
+    background-color: #007bff; /* Change this to desired color */
+    border-color: #007bff;
+  }
+  
+  
+  /* food select styleing */
+  /* .image-radio-group {
+    display: flex;
+    justify-content: center;
+  }
+   */
+  .image-radio-group input[type="radio"] {
+    display: none;
+  }
+  
+  .image-radio-group label {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .image-radio-group label img {
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-radio-group input[type="radio"]:checked + label img {
+    transform: scale(1.1);
+  }
+  
+  
+  /* input */
+  
+  .regformf input[type="text"],
+  .regformf input[type="number"],
+  .regformf input[type="tel"],
+  .regformf select {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .input input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff; /* Change this to desired focus color */
+  }
+  
+  /* Styling for buttons */
+  .regformf .btn {
+    text-align: center;
+  }
+  
+  .regformf button[type="submit"] {
+    background-color: #06C167;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .regformf button[type="submit"]:hover {
+    background-color: #058c52;
+  }
+
+  

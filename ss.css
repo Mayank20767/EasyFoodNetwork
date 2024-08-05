@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.signup,
+.signin {
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+}
+
+.welcome, .hello {
+    color: white;
+    background-color: #ff4d4d;
+    padding: 20px;
+    text-align: center;
+    /* border-radius: 10px;
+    margin-bottom: 20px; */
+}
+
+.welcome h3, .hello h3 {
+    font-weight: bold;
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.create, .login {
+    background-color: #e6f7ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create h2, .login h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input[type='text'] {
+    width: calc(100% - 22px);
+    margin: 5px 0 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #e60000;
+}
